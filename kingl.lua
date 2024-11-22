@@ -33,7 +33,7 @@ local Tabs = {
 	tab_server = Window:AddTab({ Title = "Server", Icon = "database" }),
 }
 	Tabs.tab_server:AddButton({
-        Title = "Copy Link Discord",
+        Title = "Get New Script in Discord",
         Callback = function()
 			setclipboard("https://discord.gg/SusfUyJT42")
         end
