@@ -21,8 +21,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local Window = Fluent:CreateWindow({
-    Title = "Hyper Hab Script | "..GameName,
-    SubTitle = "by sHi.xyz",
+    Title = "Get New Script in Discord",
+    SubTitle = "Get New Script in Discord",
     TabWidth = 160,
     Size = UDim2.fromOffset(600, 400),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -30,7 +30,7 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-	tab_server = Window:AddTab({ Title = "Server", Icon = "database" }),
+	tab_server = Window:AddTab({ Title = "Get New Script in Discord", Icon = "database" }),
 }
 	Tabs.tab_server:AddButton({
         Title = "Get New Script in Discord",
